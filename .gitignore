@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/Conceptos_Principales/node_modules
+/Conceptos_Principales/.pnp
+/Conceptos_Principales/.pnp.*
+/Conceptos_Principales/.yarn/*
+/Conceptos_Principales/!.yarn/patches
+/Conceptos_Principales/!.yarn/plugins
+/Conceptos_Principales/!.yarn/releases
+/Conceptos_Principales/!.yarn/versions
+
+# testing
+/Conceptos_Principales/coverage
+
+# next.js
+/Conceptos_Principales/.next/
+/Conceptos_Principales/out/
+
+# production
+/Conceptos_Principales/build
+
+# misc
+/Conceptos_Principales/.DS_Store
+/Conceptos_Principales/*.pem
+
+# debug
+/Conceptos_Principales/npm-debug.log*
+/Conceptos_Principales/yarn-debug.log*
+/Conceptos_Principales/yarn-error.log*
+/Conceptos_Principales/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/Conceptos_Principales/.env*
+
+# vercel
+/Conceptos_Principales/.vercel
+
+# typescript
+/Conceptos_Principales/*.tsbuildinfo
+/Conceptos_Principales/next-env.d.ts
